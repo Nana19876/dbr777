@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = " DBR ",
-   LoadingTitle = " dead by roblox ",
-   LoadingSubtitle = "by NE_gaaloril",
+   Name = " Example Script Hub ",
+   LoadingTitle = "🔫 dbr 💥",
+   LoadingSubtitle = "by 1_F0",
    ConfigurationSaving = {
       Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
@@ -27,7 +27,7 @@ local Window = Rayfield:CreateWindow({
 })
 
 local MainTab = Window:CreateTab("🏠 Home", nil) -- Title, Image
-local MainSection = MainTab:CreateSection("teleport")
+local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
    Title = "You executed the script",
@@ -39,9 +39,9 @@ Rayfield:Notify({
          Name = "Okay!",
          Callback = function()
          print("The user tapped Okay!")
-					
-	end,
-
+      end
+   },
+},
 })
 
 local Button = MainTab:CreateButton({
