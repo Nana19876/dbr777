@@ -39,9 +39,9 @@ Rayfield:Notify({
          Name = "Okay!",
          Callback = function()
          print("The user tapped Okay!")
-      end
-   },
-},
+					
+	end,
+
 })
 
 local Button = MainTab:CreateButton({
@@ -49,7 +49,8 @@ local Button = MainTab:CreateButton({
    Callback = function()
    game:GetService("Workspace").KateOnFire1.HumanoidRootPart.CFrame = game:GetService("Workspace").Generator1.RootPart.CFrame
 
-   end,
+	end,
+		
 })
 
 local Button = MainTab:CreateButton({
@@ -57,7 +58,7 @@ local Button = MainTab:CreateButton({
    Callback = function()
    game:GetService("Workspace").KateOnFire1.HumanoidRootPart.CFrame = game:GetService("Workspace").Generator2.RootPart.CFrame
    
-   end,
+	end,
 
 })
 
@@ -66,7 +67,7 @@ local Button = MainTab:CreateButton({
    Callback = function()
    game:GetService("Workspace").KateOnFire1.HumanoidRootPart.CFrame = game:GetService("Workspace").Generator3.RootPart.CFrame
    
-   end,
+	end,
 
 })
 
@@ -75,7 +76,7 @@ local Button = MainTab:CreateButton({
    Callback = function()
    game:GetService("Workspace").KateOnFire1.HumanoidRootPart.CFrame = game:GetService("Workspace").Generator4.RootPart.CFrame
    
-   end,
+	end,
 
 })
 
@@ -84,7 +85,7 @@ local Button = MainTab:CreateButton({
    Callback = function()
    game:GetService("Workspace").KateOnFire1.HumanoidRootPart.CFrame = game:GetService("Workspace").Generator5.RootPart.CFrame
    
-   end,
+	end,
 
 })
 
@@ -93,7 +94,7 @@ local Button = MainTab:CreateButton({
    Callback = function()
    game:GetService("Workspace").KateOnFire1.HumanoidRootPart.CFrame = game:GetService("Workspace").Generator6.RootPart.CFrame
    
-   end,
+	end,
 
 })
 
@@ -102,7 +103,7 @@ local Button = MainTab:CreateButton({
    Callback = function()
    game:GetService("Workspace").KateOnFire1.HumanoidRootPart.CFrame = game:GetService("Workspace").Generator7.RootPart.CFrame
    
-   end,
+	end,
 
 })
 
@@ -112,7 +113,7 @@ local Button = MainTab:CreateButton({
    
    game:GetService("Workspace").KateOnFire1.HumanoidRootPart.CFrame = game:GetService("Workspace").Lobby.Obby.Reward.CFrame
    
-   end,
+	end,
 
 })
 
